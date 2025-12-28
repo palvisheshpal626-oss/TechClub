@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🔹 APP -->
+    <string name="app_name">Play &amp; Learn: Code &amp; Brain Games</string>
+
+    <!-- 🔹 COMMON -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- ================= ADS ================= -->
+
+    <!-- 🔴 ADMOB -->
+    <!-- (AdMob Application ID manifest me already hai) -->
+
+    <!-- 🔵 FACEBOOK / META ADS -->
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+    <string name="facebook_client_token">YOUR_FACEBOOK_CLIENT_TOKEN</string>
+
+    <!-- ================= OPTIONAL (UI TEXTS) ================= -->
+    <!-- Agar baad me use karna ho -->
+    <string name="restart_level">Restart Level</string>
+    <string name="game_completed">Game Completed 🎉</string>
+    <string name="correct">Correct ✅</string>
+    <string name="wrong">Wrong ❌</string>
+
+</resources>

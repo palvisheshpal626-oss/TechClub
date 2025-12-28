@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ✅ MAIN APP THEME (IMPORTANT) -->
+    <style name="Theme.TechClub"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- customize later if needed -->
+    </style>
+
+</resources>

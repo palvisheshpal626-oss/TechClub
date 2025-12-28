@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brain Booster Games"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnReaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚡ Reaction Speed"/>
+
+        <Button
+            android:id="@+id/btnMemory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 Memory Matrix"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnPattern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔐 Pattern Lock"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎨 Color Match"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

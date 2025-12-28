@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techclub.vishesh.kumar.vkit.techclub">
+
+    <!-- INTERNET (Ads ke liye required) -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- Media -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechClub">
+
+        <!-- SPLASH -->
+        <activity
+            android:name=".utils.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- HOME -->
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="true"/>
+
+        <!-- GAME HUB -->
+        <activity android:name=".utils.GamesListActivity"/>
+
+        <!-- CODE GAMES -->
+        <activity android:name=".activity.CodePlayLevelsActivity"/>
+        <activity android:name=".activity.CodePlayPlayActivity"/>
+        <activity android:name=".activity.CodeRushLevelsActivity"/>
+        <activity android:name=".activity.CodeRushPlayActivity"/>
+        <activity android:name=".activity.JavaGamePlayActivity"/>
+        <activity android:name=".activity.PythonGamePlayActivity"/>
+
+        <!-- BRAIN / LOGIC -->
+        <activity android:name=".activity.BrainBoosterActivity"/>
+        <activity android:name=".activity.SmartBrainPlayActivity"/>
+        <activity android:name=".activity.MindLogicLevelsActivity"/>
+        <activity android:name=".activity.MindLogicPlayActivity"/>
+
+        <!-- MEMORY / PATTERN -->
+        <activity android:name=".activity.MemoryMatrixLevelsActivity"/>
+        <activity android:name=".activity.MemoryMatrixPlayActivity"/>
+        <activity android:name=".activity.ColorMatchLevelsActivity"/>
+        <activity android:name=".activity.ColorMatchPlayActivity"/>
+        <activity android:name=".activity.PatternLockLevelsActivity"/>
+        <activity android:name=".activity.PatternLockPlayActivity"/>
+
+        <!-- C LANGUAGE -->
+        <activity android:name=".activity.CGameLevelsActivity"/>
+        <activity android:name=".activity.CGamePlayActivity"/>
+
+        <!-- QUIZ -->
+        <activity android:name=".activity.QuickQuizLevelsActivity"/>
+
+        <!-- DAILY -->
+        <activity android:name=".activity.DailyChallengeActivity"/>
+        <activity android:name=".activity.DailyChallengeResultActivity"/>
+
+        <!-- EXTRA -->
+        <activity android:name=".activity.PlayToLearnActivity"/>
+        <activity android:name=".activity.ReactionSpeedPlayActivity"/>
+        <activity android:name=".activity.TapThinkPlayActivity"/>
+
+        <!-- PROFILE / INFO -->
+
+        <activity android:name=".activity.AboutActivity"/>
+        <activity android:name=".activity.PrivacyPolicyActivity"/>
+        <!-- EXTRA GAMES (FIXED) -->
+        <activity android:name=".activity.SpeedMathPlayActivity"/>
+        <activity android:name=".activity.UniversalGamePlayActivity"/>
+        <activity android:name=".activity.SpotBugPlayActivity"/>
+
+        <!-- ============ ADS ============ -->
+
+        <!-- ADMOB -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6788180210698006~6068942603"/>
+
+        <!-- FACEBOOK META -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "504874505468",
+    "project_id": "techclub-835d2",
+    "storage_bucket": "techclub-835d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504874505468:android:7c081e3d7edd8406427379",
+        "android_client_info": {
+          "package_name": "com.techclub.vishesh.kumar.vkit.techclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD44sEtr15O6odNeAIkThyH0OgwJxubNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
